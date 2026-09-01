@@ -1,0 +1,19 @@
+{
+  "name": "parent-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Test-orga-2ee5d541-2ef3-4a3f-8bac/Parent-project.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Test-orga-2ee5d541-2ef3-4a3f-8bac/Parent-project/issues"
+  },
+  "homepage": "https://github.com/Test-orga-2ee5d541-2ef3-4a3f-8bac/Parent-project#readme"
+}
