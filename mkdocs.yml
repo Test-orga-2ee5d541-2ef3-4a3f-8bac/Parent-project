@@ -52,6 +52,24 @@ extra_css:
   - stylesheets/extra.css
 extra_javascript:
   - javascripts/external-links.js
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 # ==============================================================================
 # Configurations Supplémentaires
 # ==============================================================================
