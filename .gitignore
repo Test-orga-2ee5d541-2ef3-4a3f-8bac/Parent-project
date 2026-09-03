@@ -19,3 +19,5 @@ site/
 # Fichiers générés par le système d'exploitation
 .DS_Store
 Thumbs.db
+
+./todo.txt
