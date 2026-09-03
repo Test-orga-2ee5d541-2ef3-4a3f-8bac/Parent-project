@@ -1,8 +1,11 @@
 name: Déployer la documentation
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  repository_dispatch:
+    types: [child-docs-updated]
+  workflow_dispatch:
+
 
 permissions:
   contents: write
