@@ -7,7 +7,10 @@ authors = [
     { name = "bryan", email = "bryan.bruzois@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "mkdocs-awesome-pages-plugin>=2.10.1",
+    "mkdocs-material>=9.7.7",
+]
 
 [project.scripts]
 parent-project = "parent_project:main"
