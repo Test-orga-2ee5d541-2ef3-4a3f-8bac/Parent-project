@@ -47,6 +47,8 @@ plugins:
       repos:
         - section: Child Project
           import_url: 'https://github.com/Test-orga-2ee5d541-2ef3-4a3f-8bac/Child-project.git?branch=main&docs_dir=docs/*'
+        - section: Third repo
+          import_url: 'https://github.com/Test-orga-2ee5d541-2ef3-4a3f-8bac/thrid-repo.git?branch=main&docs_dir=docs/*'
 
 extra_css:
   - stylesheets/extra.css
