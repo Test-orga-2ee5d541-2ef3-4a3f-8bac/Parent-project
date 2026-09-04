@@ -20,4 +20,6 @@ site/
 .DS_Store
 Thumbs.db
 
-./todo.txt
+# Dossiers temporaires générés par mkdocs-multirepo-plugin
+Child-Project/
+Third-repo/

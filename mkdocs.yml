@@ -25,7 +25,7 @@ theme:
   palette:
     # Mode clair
     - scheme: default
-      primary: teal
+      primary: custom
       toggle:
         icon: material/weather-night
         name: Passer au mode sombre
@@ -42,7 +42,7 @@ plugins:
   - search
   - awesome-pages
   - multirepo:
-      cleanup: true
+      cleanup: false
       keep_docs_dir: false
       repos:
         - section: Child Project
@@ -85,6 +85,3 @@ extra:
 nav:
   - Accueil: index.md
   - ...
-  - Backend Java: 'https://votre-nom.github.io/repo-backend/'
-  - Frontend Angular: 'https://votre-nom.github.io/repo-frontend/'
-  - ML Python: 'https://votre-nom.github.io/repo-ml-python/'
